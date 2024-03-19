@@ -1,0 +1,25 @@
+main > header{
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.produto{
+    border: 1px splid red;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.produto p{
+background-color: rgb(255, 7, 7);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 5px 10px;
+}
+.produto p:houver{
+    transform: rotate(-5deg);
+}
